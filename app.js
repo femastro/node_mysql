@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'rootpass',
-  database: 'node20_mysql'
+  password: '',
+  database: 'casa'
 });
 
 // Route
